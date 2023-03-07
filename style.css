@@ -1,0 +1,290 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  background-color: black;
+}
+body{
+
+ 
+  font-family: sans-serif;
+  
+}
+.flex{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  
+}
+.nav{
+ padding: 1% 5%;
+}
+.flex-item{
+  margin-left: 50px;
+}
+
+.po-re{
+  position: relative;
+  right: 5%;
+}
+.pos-absolute{
+  position: absolute;
+  right: -50px;
+}
+
+.pink-arrow{
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: 1.2rem;
+}
+.pink-arrow img{
+  margin-left: 1.5rem;
+}
+.pink-above{
+margin-top: 2rem;
+  position: relative;
+}
+
+.right-card{
+  color: white;
+  
+}
+
+.left-content{
+  position: relative;
+}
+.img1>img,.img2>img{
+width:52.5rem;
+
+}
+.img1{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 64%;
+  overflow: hidden;
+}
+.img2{
+  position: absolute;
+  right: 0;
+  width: 50%;
+  top: 0;
+  overflow: hidden;
+}
+.right-card{
+  padding: 5rem 5%;
+  width: 80%;
+}
+.heading{
+  font-size: 5.25rem;
+  font-weight: 400;
+  
+} 
+.para{
+  width: 70%;
+  padding: 2.5rem 0;
+  color: #9a9898;
+  font-size: 1.3rem;
+}
+.bottomk{
+  display: flex;
+  color: white;
+  padding: 1rem 5%;
+  padding-bottom: 10rem;
+  align-items: center;
+  width: 55%;
+}
+.bottomk h1{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.bottomk img{
+  padding: 0 3rem;
+}
+.bottomk p{
+ margin-left: 1rem;
+  width: 16%;
+  color: #9a9898;
+}
+.section2{
+  background-color: #242323;
+}
+.sec2-logo{
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 8rem;
+
+}
+.pink{
+ color: #f637ec;
+ font-weight: 600;
+}
+.section3{
+  padding: 5rem 0;
+  background-color: rgb(4, 4, 4);
+}
+.section3 h1{
+  color: white;
+  font-size: 3.5rem;
+  width: 50%;
+}
+.sec3-top{
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec3-top p{
+  color: rgb(86, 85, 85);
+  width: 40%;
+}
+.card p{
+  color: rgb(230, 227, 227);
+  text-align: center;
+}
+.sec3-bottom{
+  display: flex;
+  justify-content: space-between;
+  padding:  3rem 5rem;
+}
+.card{
+  box-shadow: 2px 1px 6px rgb(114, 110, 110);
+  width: 32%;
+  text-align: center;
+  padding: 2rem 0;
+  margin: 2rem 0;
+
+}
+.card:hover{
+ background-color: #504f4f;
+ margin-top:0;
+ margin-bottom: 4rem;
+}
+
+.section4{
+  background-color:#fceffb;
+  padding: 8rem 5rem;
+}
+.sec4-top h1{
+  font-size: 3.5rem;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+.sec4-top p{
+  color: rgb(101, 95, 95);
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  padding-top: 2rem;
+}
+.section4 img{
+ 
+width: 100%;
+}
+
+/* section5 */
+.section5{
+  
+  background-color:black;
+  padding: 5rem 5rem;
+}
+.sec5-top h1{
+  font-size: 4rem;
+  color: white;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+.sec5-top p{
+  color: rgb(180, 176, 176);
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding-top: 2rem;
+}
+.sec5-bottom{
+  padding: 5rem 3rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 4rem;
+}
+.sec5-card{
+  padding: 1rem;
+  box-shadow: 1px 1px  10px grey;
+}
+
+.sec5-card h3{
+  padding-top: 1rem;
+  color: white;
+}
+
+.sec5-card p{
+  padding: 0.2rem 0;
+  color: white;
+}
+
+
+/* section6  styling*/
+.section6{
+background-color: black;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  z-index: -3;
+
+}
+.sec6-img1{
+  position: absolute;
+  z-index: -2;
+}
+.sec6-img2{
+  position: absolute;
+  z-index: -1;
+}
+.let{
+  color: white;
+  margin-top: 5rem;
+
+}
+.black{
+  color: black;
+}
+.let{
+  font-size: 4rem;
+  font-weight: 550;
+}
+.sec6-wid{
+  text-align: center;
+  padding: 3rem 8rem;
+}
+.sec6-pink{
+  width: 18%;
+  margin: auto;
+}
+/* footer section */
+
+.footer{
+  padding: 5rem 5rem;
+  display: flex;
+  align-items: center;
+  background-color: rgb(2, 2, 2);
+
+}
+.footer-links{
+  margin-left: 5rem;
+  display: flex;
+}
+.footer-links a{
+  text-decoration: none;
+  color: white;
+  margin-left: 2rem;
+
+}
